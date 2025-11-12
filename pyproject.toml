@@ -9,6 +9,7 @@ description = "Monte Carlo simulation of Thomson spectrometer trajectories"
 authors = [{ name = "Yijie Zhao" }]
 readme = "README.md"
 requires-python = ">=3.10"
+
 dependencies = [
     "numpy",
     "matplotlib",

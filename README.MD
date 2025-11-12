@@ -11,31 +11,22 @@
 + JSON 配置驱动，命令行一键运行
 + 可在 VSCode 中直接调试与扩展
 
-## 依赖项
-
-运行时依赖：
-
-+ `numpy`
-
-+ `matplotlib`
-
-构建时依赖：
-
-+ `setuptools`
-
-+ `wheel`
-
-+ `Cython`
-
-这些依赖均已在 `pyproject.toml` 中声明。
-
 ## 安装
 
-确保你已经安装了 Python ≥ 3.10，并在合适的 Conda （或其他）环境中执行：
+建议使用 Conda 创建隔离环境：
 
 ```bash
+# 克隆仓库
 git clone https://github.com/Phase0xffff/tps_mc.git
 cd tps_mc
+
+# 使用 environment.yml 创建环境
+conda env create -f environment.yml
+
+# 激活环境
+conda activate tps_mc_env
+
+# 安装本地包
 pip install -e .
 ```
 
