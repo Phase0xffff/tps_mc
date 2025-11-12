@@ -35,6 +35,7 @@
 
 ```bash
 git clone https://github.com/Phase0xffff/tps_mc.git
+cd tps_mc
 pip install -e .
 ```
 
