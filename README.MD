@@ -180,7 +180,7 @@ tps-mc config.json
 }
 ```
 
-1. 在 cli.py 或 controller.py 中设置断点；
+3. 在 cli.py 或 controller.py 中设置断点；
 
 1. 按 F5 启动调试。
 
