@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61", "wheel", "Cython", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tps_mc"
+version = "0.1.0"
+description = "Monte Carlo simulation of Thomson spectrometer trajectories"
+authors = [{ name = "Yijie Zhao" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
+
+[tool.setuptools]
+packages = ["tps_mc"]
+
+[project.scripts]
+tps-mc = "tps_mc.cli:main"

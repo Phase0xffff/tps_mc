@@ -1,0 +1,33 @@
+{
+    "tps_params": {
+        "e_field": 1.7e6,
+        "b_field": 1.0,
+        "L_e": 0.15,
+        "d_e": 0.259,
+        "L_b": 0.06,
+        "d_b": 0.44,
+        "L": 1.0
+    },
+    "particles": [
+    {
+        "name": "Proton",
+        "mass": "m_p",
+        "charge": "e",
+        "mean_energy": "1MeV",
+        "energy_threshold": "1MeV",
+        "n_particles": 10000
+    },
+    {
+        "name": "Alpha",
+        "mass": "4m_p",
+        "charge": "2e",
+        "mean_energy": "5MeV",
+        "energy_threshold": "1MeV",
+        "n_particles": 5000
+    }
+    ],
+    "cone_angle": 0.1,
+    "direction_mode": "uniform",
+    "plot": true,
+    "plot_mode": "scatter"
+}

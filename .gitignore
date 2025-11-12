@@ -1,0 +1,43 @@
+# ===============================
+# Python build and cache files
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.c
+
+# ===============================
+# Cython build directories
+# ===============================
+build/
+dist/
+*.egg-info/
+*.html   # Cython annotated HTML
+
+# ===============================
+# IDE / Editor files
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Virtual environment
+# ===============================
+.venv/
+venv/
+env/
+
+# ===============================
+# Jupyter notebooks checkpoints
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# OS specific
+# ===============================
+.DS_Store
+Thumbs.db
