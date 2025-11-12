@@ -4,13 +4,16 @@
 __pycache__/
 *.py[cod]
 *.pyo
-*.pyd
-*.so
-*.c
 
 # ===============================
 # Cython build directories
 # ===============================
+*.c
+*.cpp
+*.so
+*.pyd
+*.html
+*.dll
 build/
 dist/
 *.egg-info/
