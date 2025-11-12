@@ -34,11 +34,13 @@
 确保你已经安装了 Python ≥ 3.10，并在合适的 Conda （或其他）环境中执行：
 
 ```bash
-cd <this_folder>
+git clone https://github.com/Phase0xffff/tps_mc.git
 pip install -e .
 ```
 
 这会：
+
++ 从github下载最新版本的源代码
 
 + 自动编译 Cython 扩展 (`sampler.pyx`, `projector.pyx`)；
 
@@ -63,7 +65,8 @@ tps_mc/
 ├── sampler.pyx                # 能量与方向采样（Cython 加速）
 ├── projector.pyx              # 电磁场偏转计算（Cython 加速）
 ├── visualize.py               # 可视化模块
-├── ...
+example/
+├── config.json               # 示例配置文件
 pyproject.toml
 setup.py
 README.md
